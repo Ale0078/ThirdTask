@@ -15,7 +15,8 @@ namespace ThirdTask.Logic.UserInterface.Abstracts
 
         public abstract void Display();
         public abstract void AddFigure();
-        public abstract FigureBuilder CreateNewFigureBuilder(string figureName, params double[] figureSides);
+        public abstract void SetNewFigureBuilder(FigureBuilder builder);
         public abstract void SetNewParameters(string figureName, params double[] figureSides);
+        public abstract void SortFigures();
     }
 }

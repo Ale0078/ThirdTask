@@ -6,7 +6,7 @@ namespace ThirdTask.Logic.Components.Builders
 {
     public class TriangelBuilder : FigureBuilder
     {
-        public TriangelBuilder(params double[] sides) : base(sides) 
+        public TriangelBuilder(string name, params double[] sides) : base(name, sides) 
         {
         }
 
@@ -15,7 +15,8 @@ namespace ThirdTask.Logic.Components.Builders
             return new Triangle(
                 firstSide: Sides[0],
                 secondSide: Sides[1],
-                thirdSide: Sides[2]);
+                thirdSide: Sides[2],
+                name: Name);
         }
     }
 }

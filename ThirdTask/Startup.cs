@@ -2,6 +2,7 @@
 using NLog;
 using static System.Console;
 
+using ThirdTask.Messages;
 using ThirdTask.Controllers;
 using ThirdTask.Models;
 using ThirdTask.Views;
@@ -44,7 +45,7 @@ namespace ThirdTask
 
                 bool flage = true;
 
-                while(flage)
+                while (flage)
                 {
                     string[] triangleParametrs = ParseReadLine();
 
@@ -61,13 +62,19 @@ namespace ThirdTask
 
                 figureController.Display();
 
-                _loggre.Info("Program was finalized correct");
+                _loggre.Info(LoggerMessage.STARTUP);
             }
-            catch(FormatException ex)
+            catch (FormatException ex)
             {
-                WriteLine("You has to enter all parametrs to triangle like thet: [name], [side1], [side2], [side3]");
+                WriteLine(ExceptionMessage.INSTRACTION_EXCEPTION);
 
-                _loggre.Error("Program was finalized with exception: {0}, with mesage: {1}", ex.GetType(), ex.Message);
+                _loggre.Error(LoggerMessage.STARTUP_EXCEPTION, ex.GetType(), ex.Message);
+            }
+            catch (IndexOutOfRangeException ex) 
+            {
+                WriteLine(ExceptionMessage.INSTRACTION_EXCEPTION);
+
+                _loggre.Error(LoggerMessage.STARTUP_EXCEPTION, ex.GetType(), ex.Message);
             }
         }
 
@@ -75,7 +82,7 @@ namespace ThirdTask
         {   
             if (!ValidatorToTriangle.IsTriangle(sides))
             {
-                throw new FormatException("You need enter a string like thet: [name], [side1], [side2], [side3]");
+                throw new FormatException(ExceptionMessage.INSTRACTION_EXCEPTION);
             }
 
             return sides;
@@ -83,13 +90,13 @@ namespace ThirdTask
 
         private string[] ParseReadLine() 
         {
-            WriteLine("Enter all parametrs to triangle like thet: [name], [side1], [side2], [side3]");
+            WriteLine(UserMessage.PARSE_READ_LINE);
 
             string[] parsedString = ReadLine().Split(", ");
 
             if (parsedString.Length < 3) 
             {
-                throw new FormatException("You need enter a string like thet: [name], [side1], [side2], [side3]");
+                throw new FormatException(ExceptionMessage.INSTRACTION_EXCEPTION);
             }
 
             return parsedString;
@@ -105,7 +112,7 @@ namespace ThirdTask
 
         private void SetBooleanFlage(out bool flage)
         {
-            WriteLine("Do you want to continue ('y' or 'yes' to continue) ?");
+            WriteLine(UserMessage.SET_BOOLEAN_FLAGE);
 
             flage = (ReadLine().ToUpper()) switch
             {
@@ -124,7 +131,7 @@ namespace ThirdTask
 
                 if (sidesLikedouble[i] < 2.0 || sidesLikedouble[i] > 300.0) 
                 {
-                    throw new FormatException("Side must be less than 300 and more than 2");
+                    throw new FormatException(ExceptionMessage.INSTRACTION_SIZE_EXCEPTION);
                 }
             }
 

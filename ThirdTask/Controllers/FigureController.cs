@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using NLog;
 
+using ThirdTask.Messages;
 using ThirdTask.Logic.UserInterface.Abstracts;
 using ThirdTask.Logic.Components.Builders.Abstracts;
 
@@ -20,21 +21,21 @@ namespace ThirdTask.Controllers
         {
             ViewToDisplay.FigureContainer.AddFigure(FigureCreater.Create());
 
-            _logger.Info("New figure was created and added to model");
+            _logger.Info(LoggerMessage.ADD_FIGURE);
         }
 
         public override void Display()
         {
             ViewToDisplay.Display();
 
-            _logger.Info("All figures were inputted into console");
+            _logger.Info(LoggerMessage.DISPLAY);
         }
 
         public override void SetNewFigureBuilder(FigureBuilder builder)
         {
             FigureCreater = builder;
 
-            _logger.Info("New FigureBuilder was setted to create new type of figure");
+            _logger.Info(LoggerMessage.SET_NEW_FIGURE_BUILDER);
         }
 
         public override void SetNewParameters(string figureName, params double[] figureSides)
@@ -42,14 +43,14 @@ namespace ThirdTask.Controllers
             FigureCreater.Name = figureName;
             FigureCreater.Sides = new List<double>(figureSides);
 
-            _logger.Info("New parametrs were setted to FigureBuilder");
+            _logger.Info(LoggerMessage.SET_NEW_PARAMETRS);
         }
 
         public override void SortFigures()
         {
             ViewToDisplay.FigureContainer.Figures.Sort();
 
-            _logger.Info("All figures were sorted");
+            _logger.Info(LoggerMessage.SORT_FIGURES);
         }
     }
 }

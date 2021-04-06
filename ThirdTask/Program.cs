@@ -1,13 +1,9 @@
-﻿using System;
-using NLog;
+﻿using static System.Console;
 
-namespace ThirdTask
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+using ThirdTask;
+
+Startup startProgram = new();
+
+startProgram.Start(args);
+
+ReadKey();

@@ -27,7 +27,7 @@ namespace ThirdTask.Logic.Components
         }
 
         public int CompareTo(IFigure figure) =>
-            SemiPerimeter.CompareTo(figure.Suaqre);
+            figure.Suaqre.CompareTo(Suaqre);
 
         public override string ToString() 
         {

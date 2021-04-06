@@ -10,8 +10,8 @@ namespace ThirdTask.Controllers
     {
         private ILogger _logger;
 
-        public FigureController(View viewtoDisplay, FigureBuilder figureCreater) :
-            base(viewtoDisplay, figureCreater)
+        public FigureController(View viewToDisplay, FigureBuilder figureCreater) :
+            base(viewToDisplay, figureCreater)
         {
             _logger = LogManager.GetCurrentClassLogger();
         }

@@ -1,0 +1,98 @@
+2021-04-06 13:06:00.8770 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-06 13:06:00.9038 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-06 13:06:00.9060 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-06 13:06:00.9060 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-06 13:06:00.9060 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-06 13:06:00.9060 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-06 13:06:00.9060 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:06:14.0384 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-06 13:06:14.0384 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-06 13:06:14.0384 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-06 13:06:14.0384 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-06 13:06:14.0384 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-06 13:06:14.0384 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-06 13:06:14.0384 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-06 13:06:14.0384 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:06:16.4125 | INFO | ThirdTask.Controllers.FigureController | All figures were sorted
+2021-04-06 13:06:16.4125 | INFO | ThirdTask.Controllers.FigureController | All figures were inputted into console
+2021-04-06 13:06:16.4125 | INFO | ThirdTask.Startup | Program was finalized correct
+2021-04-06 13:07:36.6575 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:07:36.6840 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:07:36.6840 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:07:36.6840 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:07:36.6840 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:07:36.6840 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:07:36.6908 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:07:49.0702 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:07:49.0702 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:07:49.0702 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:07:49.0702 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:07:49.0702 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:07:49.0702 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:07:49.0702 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-06 13:07:49.0702 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:07:51.4355 | INFO | ThirdTask.Controllers.FigureController | All figures were sorted
+2021-04-06 13:07:51.4355 | INFO | ThirdTask.Controllers.FigureController | All figures were inputted into console
+2021-04-06 13:07:51.4355 | INFO | ThirdTask.Startup | Program was finalized correct
+2021-04-06 13:08:50.3178 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:08:50.3474 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:08:50.3474 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:08:50.3474 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:08:50.3474 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:08:50.3474 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:08:50.3474 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:08:59.5101 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:08:59.5101 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:08:59.5101 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:08:59.5101 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:08:59.5101 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:08:59.5101 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:08:59.5101 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-06 13:08:59.5101 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:09:00.8580 | INFO | ThirdTask.Controllers.FigureController | All figures were sorted
+2021-04-06 13:09:00.8595 | INFO | ThirdTask.Controllers.FigureController | All figures were inputted into console
+2021-04-06 13:09:00.8595 | INFO | ThirdTask.Startup | Program was finalized correct
+2021-04-06 13:10:08.8333 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:11:00.4901 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:11:00.5168 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:11:00.5168 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:11:00.5168 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:11:00.5168 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:11:00.5168 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:11:00.5168 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:11:07.4903 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-06 13:11:07.4903 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-06 13:11:07.4903 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-06 13:11:07.4903 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-06 13:11:07.4903 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-06 13:11:07.4903 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-06 13:11:07.4903 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-06 13:11:07.4903 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:11:09.1245 | INFO | ThirdTask.Controllers.FigureController | All figures were sorted
+2021-04-06 13:11:09.1267 | INFO | ThirdTask.Controllers.FigureController | All figures were inputted into console
+2021-04-06 13:11:09.1267 | INFO | ThirdTask.Startup | Program was finalized correct
+2021-04-06 13:12:33.8997 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:12:33.9251 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:12:33.9251 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:12:33.9251 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:12:33.9251 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:12:33.9251 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:12:33.9251 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:12:37.0904 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-06 13:12:37.0904 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-06 13:12:37.0904 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-06 13:12:37.0904 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-06 13:12:37.0904 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-06 13:12:37.0904 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-06 13:12:37.0904 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-06 13:12:37.0904 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-06 13:12:39.4449 | INFO | ThirdTask.Controllers.FigureController | All figures were sorted
+2021-04-06 13:12:39.4449 | INFO | ThirdTask.Controllers.FigureController | All figures were inputted into console
+2021-04-06 13:12:39.4449 | INFO | ThirdTask.Startup | Program was finalized correct
+2021-04-06 13:12:49.9425 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:12:49.9731 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:12:49.9731 | INFO | LibToTasks.Validation.Transformator | Value 10 can be converted to System.Double
+2021-04-06 13:12:49.9731 | INFO | LibToTasks.Validation.Validator | Value 10 passed checking
+2021-04-06 13:12:49.9731 | INFO | LibToTasks.Validation.Transformator | Value 0 can be converted to System.Double
+2021-04-06 13:12:49.9731 | ERROR | LibToTasks.Validation.Validator | Value 0 didn`t pass checking
+2021-04-06 13:12:49.9731 | ERROR | ThirdTask.Startup | Program was finalized with exception: System.FormatException, with mesage: Side must be less than 300 and more than 2

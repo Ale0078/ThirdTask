@@ -6,8 +6,8 @@ namespace ThirdTask.Logic.Components.Builders.Abstracts
 {
     public abstract class FigureBuilder
     {
-        public List<double> Sides { get; protected set; }
-        public string Name { get; protected set; }
+        public List<double> Sides { get; set; }
+        public string Name { get; set; }
 
         public FigureBuilder(string name, params double[] sides)
         {

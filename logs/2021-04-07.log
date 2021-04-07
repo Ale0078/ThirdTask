@@ -1,0 +1,44 @@
+2021-04-07 07:35:36.4685 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:35:36.5022 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:35:36.5022 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:35:36.5022 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:35:36.5022 | ERROR | ThirdTask.Startup | Program was finalized with exception: System.IndexOutOfRangeException, with mesage: Index was outside the bounds of the array.
+2021-04-07 07:35:56.9701 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:35:56.9958 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:35:56.9958 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:35:56.9958 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:35:56.9958 | ERROR | ThirdTask.Startup | Program was finalized with exception: System.IndexOutOfRangeException, with mesage: Index was outside the bounds of the array.
+2021-04-07 07:36:25.1443 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:36:25.1691 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:36:25.1691 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:36:25.1691 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:36:25.1691 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:36:25.1691 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:36:25.1691 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-07 07:36:50.7455 | ERROR | ThirdTask.Startup | Program was finalized with exception: System.FormatException, with mesage: You has to enter a string like thet: [name], [side1], [side2], [side3]
+2021-04-07 07:37:00.3096 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:37:00.3376 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:37:00.3393 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:37:00.3393 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:37:00.3393 | INFO | LibToTasks.Validation.Transformator | Value 50 can be converted to System.Double
+2021-04-07 07:37:00.3393 | INFO | LibToTasks.Validation.Validator | Value 50 passed checking
+2021-04-07 07:37:00.3393 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-07 07:37:06.7013 | INFO | LibToTasks.Validation.Transformator | Value 40 can be converted to System.Double
+2021-04-07 07:37:06.7013 | INFO | LibToTasks.Validation.Validator | Value 40 passed checking
+2021-04-07 07:37:06.7013 | INFO | LibToTasks.Validation.Transformator | Value 40 can be converted to System.Double
+2021-04-07 07:37:06.7013 | INFO | LibToTasks.Validation.Validator | Value 40 passed checking
+2021-04-07 07:37:06.7013 | INFO | LibToTasks.Validation.Transformator | Value 40 can be converted to System.Double
+2021-04-07 07:37:06.7013 | INFO | LibToTasks.Validation.Validator | Value 40 passed checking
+2021-04-07 07:37:06.7013 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-07 07:37:06.7013 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-07 07:37:20.7680 | INFO | LibToTasks.Validation.Transformator | Value 3 can be converted to System.Double
+2021-04-07 07:37:20.7680 | INFO | LibToTasks.Validation.Validator | Value 3 passed checking
+2021-04-07 07:37:20.7680 | INFO | LibToTasks.Validation.Transformator | Value 4 can be converted to System.Double
+2021-04-07 07:37:20.7680 | INFO | LibToTasks.Validation.Validator | Value 4 passed checking
+2021-04-07 07:37:20.7680 | INFO | LibToTasks.Validation.Transformator | Value 5 can be converted to System.Double
+2021-04-07 07:37:20.7680 | INFO | LibToTasks.Validation.Validator | Value 5 passed checking
+2021-04-07 07:37:20.7680 | INFO | ThirdTask.Controllers.FigureController | New parametrs were setted to FigureBuilder
+2021-04-07 07:37:20.7680 | INFO | ThirdTask.Controllers.FigureController | New figure was created and added to model
+2021-04-07 07:37:21.8900 | INFO | ThirdTask.Controllers.FigureController | All figures were sorted
+2021-04-07 07:37:21.8900 | INFO | ThirdTask.Controllers.FigureController | All figures were inputted into console
+2021-04-07 07:37:21.8900 | INFO | ThirdTask.Startup | Program was finalized correct

@@ -5,7 +5,7 @@ using ThirdTask.Logic.Components.Interfaces;
 
 namespace ThirdTask.Logic.Components
 {
-    public class Triangle : IFigure
+    internal class Triangle : IFigure
     {
         public double FirstSide { get; init; }
         public double SecondSide { get; init; }

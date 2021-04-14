@@ -9,7 +9,8 @@ using ThirdTask.Views;
 using ThirdTask.Validators;
 using ThirdTask.Logic.Components.Builders;
 using ThirdTask.Logic.UserInterface.Abstracts;
-using LibToTasks.Validation;
+using LibToTasks.Validation.Interfaces;
+using LibToTasks.Builders;
 
 namespace ThirdTask
 {
@@ -20,16 +21,16 @@ namespace ThirdTask
 
         private ILogger _loggre;
 
-        public Validator ValidatorToSide { get; set; }
-        public Transformator TransformatorToSide { get; set; }
+        public IValidator ValidatorToSide { get; set; }
+        public ITransformator TransformatorToSide { get; set; }
         public TriangleValidator ValidatorToTriangle { get; set; }
 
         public Startup() 
         {
             _loggre = LogManager.GetCurrentClassLogger();
 
-            ValidatorToSide = new Validator();
-            TransformatorToSide = new Transformator();
+            ValidatorToSide = new DefaultValidatorBuilder().Create();
+            TransformatorToSide = new DefaultTransformatorBuilder().Create();
             ValidatorToTriangle = new TriangleValidator();
         }
 
